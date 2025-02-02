@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",                                  /* Redirect output structure to the directory. */
+    "target": "ESNext",                                   /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "CommonJS",
+    "esModuleInterop": true,                              /* Emit additional JavaScript to ease support for importing CommonJS modules. */
+    "forceConsistentCasingInFileNames": true,             /* Ensure that casing is correct in imports. */
+    "strict": true,                                       /* Enable all strict type-checking options. */
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "moduleResolution": "node"                            /* Ensure Node.js resolution for modules */
+  },
+  "include": ["./src/*", "src/routes", "src/routes/index.ts"] /* Specify the root files and the files included in the program. */
+}
